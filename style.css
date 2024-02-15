@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(rgb(255, 255, 255), rgb(138, 70, 158));
+}
+h1{
+    font-family:fantasy ;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+nav{
+     width: 100%;
+     height: 10%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: white;
+     border: 2px solid rgb(146, 77, 173);
+}
+.logo{
+    width: 30%;
+}
+.navbar-links{
+    width: 50%;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li{
+    font-size: 1.5rem;
+    color: blueviolet;
+    width: 120px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.logo h1{
+    font-size: 2.5rem;
+    font-family: 'Moon 2.0', sans-serif;
+    color: black;
+    margin-left: 1em;
+}
+a{
+    text-decoration: none;
+    color: rgb(211, 142, 243)
+
+}
+li:hover{
+    transition: all 0.5s ease-in;
+    background-color: rgb(236, 210, 251);
+}
+img{
+    border: 2px solid ;
+    margin-left: 20px;
+}
+label{
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    border: 2px solid;
+}
